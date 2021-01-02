@@ -39,19 +39,16 @@
             var tableData = anychart.data.parseHtmlTable("#htmlTable");
 
             // create data <- create, remove, edge의 생성, 제거 웹 뷰에서 처리 할 수 있도록
-            // var data= {
-            //     nodes: [
-            //       {id : 1},
-            //       {id : 2}
-            //     ],
+            var data= {
+                 nodes: [
+                   {id : 1},
+                   {id : 2}
+                 ],
             
-            //     edges : [
-            //          {from: 1, to: 2},
-            //     ]
-            // };
-
-            var data={};
-            data.nodes.id = ["hi","hello"];
+                 edges : [
+                      {from: 1, to: 2},
+                 ]
+            };
 
             for (var id in data){
               
